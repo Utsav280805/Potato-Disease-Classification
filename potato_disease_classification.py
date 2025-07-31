@@ -250,6 +250,6 @@ model_version = max(existing_versions + [0]) + 1
 save_path = os.path.join(models_dir, str(model_version))
 model.export(save_path)
 
-print(f"✅ Model exported at: {save_path}")
+print(f"Model exported at: {save_path}")
 
 model.save("../potatoes.h5")
